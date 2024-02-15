@@ -8,9 +8,29 @@ html, body {
     font-size: Garamond, serif;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #e0a607;
+}
+
+a:active {
+    color: #e0a607;
+}
+
 h1 {
     text-align: center;
     font-size: 3em;
+}
+
+h3 {
+    text-align: center;
 }
 
 h5 {
