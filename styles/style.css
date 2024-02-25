@@ -1,6 +1,6 @@
 html, body {
-    background-color:  #2d1f63;
-    color: white;
+    background-color:  #d9d1f6;
+    color: rgb(13, 13, 13);
     height: 100%;
     padding: 0;
     margin: 1%;
@@ -8,20 +8,48 @@ html, body {
     font-size: Garamond, serif;
 }
 
-a:link {
+nav {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    background-color: #2d1f63;
+    padding: 1em;
+    flex: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav a:link {
     color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    background-color: #22194a;
+}
+
+a:link {
+    color: rgb(13, 13, 13);
 }
 
 a:visited {
-    color: white;
+    color: #2d1f63;
 }
 
 a:hover {
-    color: #e0a607;
+    color: #2d1f63;
 }
 
 a:active {
-    color: #e0a607;
+    color: #2d1f63;
 }
 
 h1 {
@@ -35,5 +63,5 @@ h3 {
 
 h5 {
     text-align: center;
-    color: #e0a607;
+    color: #2d1f63;
 }

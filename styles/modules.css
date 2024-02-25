@@ -1,0 +1,30 @@
+.modules-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.image-description {
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    text-align: center;
+    transition: opacity .2s, visibility .2s;
+}
+
+.module-wrap {
+    position: relative;
+    height: 320px;
+    width : 500px;
+    overflow-y: hidden;
+}
+
+.module-wrap:hover .image-description{
+    visibility: visible;
+    opacity: 1;
+}
