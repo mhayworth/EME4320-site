@@ -19,6 +19,7 @@
 
 .module-wrap {
     position: relative;
+    object-fit: cover;
     height: 320px;
     width : 500px;
     overflow-y: hidden;
